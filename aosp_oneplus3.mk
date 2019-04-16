@@ -25,7 +25,7 @@ TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 PRODUCT_NAME := aosp_oneplus3
 PRODUCT_DEVICE := oneplus3
